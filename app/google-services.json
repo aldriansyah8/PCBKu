@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "448482058752",
+    "firebase_url": "https://tabisa-f72c3-default-rtdb.firebaseio.com",
+    "project_id": "tabisa-f72c3",
+    "storage_bucket": "tabisa-f72c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448482058752:android:a16bff96772de051e3eee5",
+        "android_client_info": {
+          "package_name": "com.example.tapcbbisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448482058752-02b31cekncps57rq4t0t5j8juieo48io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC9emM6ABUaLtFcxkjXPdatx7Err0THwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448482058752-02b31cekncps57rq4t0t5j8juieo48io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

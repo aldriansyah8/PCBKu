@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <View
+        android:id="@+id/bghome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/pcbk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_button"
+        android:backgroundTint="@drawable/button_colorhome"
+        android:text="Info Aplikasi"
+        android:textColor="#214BB2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bghome"
+        app:layout_constraintVertical_bias="0.827" />
+
+    <Button
+        android:id="@+id/monitor"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_button"
+        android:backgroundTint="@drawable/button_colorhome"
+        android:text="Halaman Monitoring"
+        android:textColor="#214BB2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bghome"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PCBKU"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toTopOf="@+id/info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bghome"
+        app:layout_constraintVertical_bias="0.841" />
+</androidx.constraintlayout.widget.ConstraintLayout>
